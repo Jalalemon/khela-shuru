@@ -17,7 +17,10 @@ h1 {
     font-size: 50px;
 
 }
-section {
+h2 {
+    font-size: 40px;
+}
+.flexible-container {
     display: flex;
 }
 .bibi {
@@ -35,9 +38,37 @@ section {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
-    background-image: linear-gradient(orange rgb(171, 43, 21)) ;
+    background-image: linear-gradient(orange, tomato) ;
 }  
 .banner {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.expriences {
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 50%;
+    border-radius: 5%;
+    
+}
+.dure {
+    padding-left: 5%;
+}
+.exprience-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+#nana {
+border-left: 10px solid blue;
+}
+#nani {
+border-left: 10px solid tomato;
+}
+
+footer{
+    text-align: center;
+    
 }
